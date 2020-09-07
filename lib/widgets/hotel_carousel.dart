@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_travel_ui/models/destination_model.dart';
 import 'package:flutter_travel_ui/models/hotel_model.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HotelCarousel extends StatelessWidget {
   const HotelCarousel({Key key}) : super(key: key);
@@ -41,7 +39,7 @@ class HotelCarousel extends StatelessWidget {
           height: 300.0,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
-            itemCount: destinations.length,
+            itemCount: hotels.length,
             itemBuilder: (context, index) {
               Hotel hotel = hotels[index];
               return Container(
