@@ -31,4 +31,10 @@ final List<Hotel> hotels = [
     address: '404 Great St',
     price: 240,
   ),
+  Hotel(
+    imageUrl: 'assets/images/hotel2.jpg',
+    name: 'Hotel 2',
+    address: '404 Great St',
+    price: 240,
+  ),
 ];
